@@ -47,6 +47,7 @@
 	<link rel="stylesheet" href="css/superfish.css">
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
 
 	<!-- Modernizr JS -->
@@ -111,45 +112,47 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-sm-8">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/slide/1.jpg);">
-							<a class="image-popup text-center" href="#">
-								<div class="prod-title">
-									<h3>Nome do Serviço</h3>
-									<span>Curta descrição</span>
-								</div>
-							</a>
+				<div class="tz-gallery">
+					<div class="row">
+						<div class="col-md-8 col-sm-8">
+							<div class="fh5co-grid animate-box" style="background-image: url(images/slide/1.jpg);">
+								<a class="image-popup text-center lightbox" href="images/slide/1.jpg">
+									<div class="prod-title">
+										<h3>Nome do Serviço</h3>
+										<span>Curta descrição</span>
+									</div>
+								</a>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/slide/3.jpg);">
-							<a class="image-popup text-center" href="#">
-								<div class="prod-title">
-									<h3>Nome do Serviço</h3>
-									<span>Curta descrição</span>
-								</div>
-							</a>
+						<div class="col-md-4 col-sm-4">
+							<div class="fh5co-grid animate-box" style="background-image: url(images/slide/3.jpg);">
+								<a class="image-popup text-center lightbox" href="images/slide/3.jpg">
+									<div class="prod-title">
+										<h3>Nome do Serviço</h3>
+										<span>Curta descrição</span>
+									</div>
+								</a>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/slide/5.jpg);">
-							<a class="image-popup text-center" href="#">
-								<div class="prod-title">
-									<h3>Nome do Serviço</h3>
-									<span>Curta descrição</span>
-								</div>
-							</a>
+						<div class="col-md-4 col-sm-4">
+							<div class="fh5co-grid animate-box" style="background-image: url(images/slide/5.jpg);">
+								<a class="image-popup text-center lightbox" href="images/slide/5.jpg">
+									<div class="prod-title">
+										<h3>Nome do Serviço</h3>
+										<span>Curta descrição</span>
+									</div>
+								</a>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/slide/4.jpg);">
-							<a class="image-popup text-center" href="#">
-								<div class="prod-title">
-									<h3>Nome do Serviço</h3>
-									<span>Curta descrição</span>
-								</div>
-							</a>
+						<div class="col-md-8 col-sm-8">
+							<div class="fh5co-grid animate-box" style="background-image: url(images/slide/4.jpg);">
+								<a class="image-popup text-center lightbox" href="images/slide/4.jpg">
+									<div class="prod-title">
+										<h3>Nome do Serviço</h3>
+										<span>Curta descrição</span>
+									</div>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -299,6 +302,11 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+	<script>
+	    baguetteBox.run('.tz-gallery');
+	</script>
 
 	</body>
 </html>

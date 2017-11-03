@@ -83,7 +83,8 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+  min-height: 100vh;
+  max-height: 100%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -115,7 +116,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(66, 64, 64, 0.9);
+  background: rgba(66, 64, 64, 0.5);
 }
 
 .fh5co-cover {
@@ -931,7 +932,7 @@ figure {
 }
 #offcanvas-menu ul li a {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.5);
 }
 #offcanvas-menu ul li a:hover {
   color: #123E89;
@@ -941,7 +942,7 @@ figure {
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #123E89;
+  color: #FFF;
 }
 #offcanvas-menu ul .fh5co-sub-menu {
   display: block !important;
@@ -967,8 +968,8 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  width: 30px;
-  height: 2px;
+  width: 35px;
+  height: 3px;
   color: #fff;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
@@ -976,10 +977,11 @@ figure {
   background: #fff;
   transition: all .2s ease-out;
 }
+
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
-  width: 30px;
-  height: 2px;
+  width: 35px;
+  height: 3px;
   background: #fff;
   position: absolute;
   left: 0;
@@ -1001,11 +1003,11 @@ figure {
 }
 
 .fh5co-nav-toggle i::before {
-  top: -7px;
+  top: -9px;
 }
 
 .fh5co-nav-toggle i::after {
-  bottom: -7px;
+  bottom: -9px;
 }
 
 .fh5co-nav-toggle:hover i::before {
